@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whisperchat — Private messaging, reimagined</title>
+<meta name="description" content="Whisperchat is a fast, end-to-end encrypted chat app. Download the Android APK and start whispering.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤫</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="#top" class="logo">
+    <span class="logo-mark" aria-hidden="true">
+      <svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 3c-1 0-1.8.8-1.8 1.8v6.4c0 1 .8 1.8 1.8 1.8s1.8-.8 1.8-1.8V4.8C13.8 3.8 13 3 12 3z" fill="currentColor" opacity="0.55"/><path d="M6.5 10.5a.7.7 0 0 1 1.4 0c0 2.6 1.9 4.7 4.1 4.7s4.1-2.1 4.1-4.7a.7.7 0 0 1 1.4 0c0 3.1-2.2 5.7-5 6v2h2.2a.7.7 0 0 1 0 1.4H9.3a.7.7 0 0 1 0-1.4h2.2v-2c-2.8-.3-5-2.9-5-6z" fill="currentColor"/></svg>
+    </span>
+    Whisperchat
+  </a>
+  <nav class="site-nav">
+    <a href="#features">Features</a>
+    <a href="#download">Download</a>
+  </nav>
+  <a href="whisperchat.apk" download class="btn btn-small">Download</a>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Private messaging, reimagined</p>
+      <h1>Some things are<br>better said <em>in a whisper</em>.</h1>
+      <p class="hero-sub">Whisperchat is a fast, end-to-end encrypted chat app, built for conversations that stay between you and the people you trust.</p>
+      <div class="hero-actions">
+        <a href="whisperchat.apk" download class="btn btn-primary">
+          <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 3v11.4M12 14.4l-4-4M12 14.4l4-4M5 19h14" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Download for Android
+        </a>
+        <a href="#features" class="btn btn-ghost">See what's inside</a>
+      </div>
+      <p class="hero-meta">APK &middot; <span id="apk-size">95 MB</span> &middot; Android 8.0+</p>
+    </div>
+
+    <div class="hero-visual" aria-hidden="true">
+      <div class="ripple ripple-1"></div>
+      <div class="ripple ripple-2"></div>
+      <div class="ripple ripple-3"></div>
+      <div class="phone">
+        <div class="phone-notch"></div>
+        <div class="phone-screen">
+          <div class="chat-header">
+            <span class="chat-avatar"></span>
+            <span class="chat-name">Amara</span>
+          </div>
+          <div class="chat-body">
+            <div class="bubble bubble-in" style="--d:0">did you make it home ok?</div>
+            <div class="bubble bubble-out" style="--d:1">yeah, just got in 🌙</div>
+            <div class="bubble bubble-in" style="--d:2">good. sleep well</div>
+            <div class="bubble bubble-out typing" style="--d:3"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <h2>Quiet by design</h2>
+    <div class="feature-grid">
+      <article class="feature-card">
+        <div class="feature-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="26" height="26"><path d="M12 3l7 3v5c0 5-3 8.5-7 10-4-1.5-7-5-7-10V6z" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Encrypted by default</h3>
+        <p>Every message is sealed end-to-end, so a whisper stays a whisper &mdash; not even we can read it.</p>
+      </article>
+      <article class="feature-card">
+        <div class="feature-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="26" height="26"><path d="M13 2 4 14h6l-1 8 9-12h-6z" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"/></svg>
+        </div>
+        <h3>Built for speed</h3>
+        <p>Messages land the instant you send them &mdash; no spinners, no delays, no waiting for a whisper to travel.</p>
+      </article>
+      <article class="feature-card">
+        <div class="feature-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="26" height="26"><path d="M4 12a8 8 0 1 1 16 0 8 8 0 0 1-16 0z" stroke="currentColor" stroke-width="1.6" fill="none"/><path d="M12 8v4l3 2" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg>
+        </div>
+        <h3>Yours, not ours</h3>
+        <p>No ads, no data harvesting, no algorithm listening in. Just you and the people you talk to.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="download" class="download-band">
+    <h2>Ready to whisper?</h2>
+    <p>Available now for Android. iOS is on the way.</p>
+    <a href="whisperchat.apk" download class="btn btn-primary btn-large">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 3v11.4M12 14.4l-4-4M12 14.4l4-4M5 19h14" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Download APK &middot; <span id="apk-size-2">95 MB</span>
+    </a>
+    <p class="fine-print">Installing from outside the Play Store? Allow installs from unknown sources in your phone's settings.</p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <span class="logo small">Whisperchat</span>
+  <p>&copy; 2026 Whisperchat. Built for quiet conversations.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
